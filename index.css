@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", serif;
+}
+
+body{
+    background: #FFF0F6;  
+}
+
+.card{
+  background: #FFFFFF;
+  color: #4A4A4A;  
+  width: 85%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-radius: 15px;
+  border: 2px solid #FFDDEE;
+}
+
+img{
+    width: 100px;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    border: 2px solid #FFDDEE;
+}
+
+.job__title{
+    margin: .8rem 0;
+    color: #FFB6C1;
+    font-weight: 700;
+}
+
+.short__bio{
+    margin-bottom: 1.5rem;
+    line-height: 1;
+}
+
+a{
+    color: #FFB6C1;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #D4738A;
+    text-decoration: underline;
+}
+
+.time__and__location{
+    margin: 1rem 0;
+   
+}
+
+.location{
+    background: #5D3754;
+    color: #FFFFFF;
+    padding: .8rem;
+    border-radius: 15px;
+    
+}
+
+.utc__time{
+    margin-top: 1rem;
+    color: #5D3754;
+}
+
+.icon__links{
+    font-size: 1.4rem;
+    margin-top: 1.5rem ;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+a i{
+    color: #5D3754;
+}
+
+a i:hover{
+    color: #FADADD; 
+}
+
+@media (min-width: 768px) {
+    .card{
+        width: 50%;
+        max-width: 450px;
+    }
+   
+}
