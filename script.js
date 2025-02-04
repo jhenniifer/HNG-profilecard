@@ -3,4 +3,4 @@ function updateTime() {
     const now = new Date();
     utcTimeElement.textContent = now.toUTCString();
 }
-window.onload = updateTime;
+window.onload = updateTime();
